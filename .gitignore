@@ -1,0 +1,7 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+
+# Large generated model
+/models/random_forest.joblib
