@@ -19,7 +19,7 @@ from sklearn.metrics import (
 ROOT = Path(__file__).resolve().parent
 OUTPUTS = ROOT / "outputs"
 
-RESULTS_FILE = OUTPUTS / "classifier_anomaly_results.csv"
+RESULTS_FILE = OUTPUTS / "hybrid_rule_candidate.csv"
 METRICS_FILE = OUTPUTS / "model_metrics.csv"
 
 st.set_page_config(
